@@ -1,0 +1,85 @@
+header {
+    background-image: url("images/sky.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+html{
+    background-color: #edf7f6;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Eczar', serif;
+font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 20px;
+    animation: mySlide;
+    animation-duration: 3s;
+}
+.button{
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: linear-gradient(to left, black, #edf7f6);
+    font-family: 'Abril Fatface', cursive;
+    opacity: 0.8;
+    border: outset;
+}
+.section{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Asap Condensed', sans-serif;
+font-family: 'Eczar', serif;
+font-family: 'Playfair Display', serif;
+}
+.image{
+    margin-left: 20px;
+    border-radius: 10px;
+    animation: mySlide;
+    animation-duration: 3s;
+}
+@keyframes mySlide {
+    from{margin-left:100%}
+    to{margin-left:20%}
+}
+footer{
+   background-color: black;
+   color: white;
+   text-align: left;
+   border-radius: 10px;
+   font-family: 'Abril Fatface', cursive;
+font-family: 'Asap Condensed', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Eczar', serif;
+font-family: 'Playfair Display', serif;
+float: right;
+}
+video{
+    position: fixed;
+    opacity: 0.3;
+    object-position: right bottom;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    margin-top: 240px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 50px;
+    opacity: 0.6;
+}
+.follow{
+    opacity: 0.5;
+}
+.float{
+    float: left;
+}
+.pass {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
